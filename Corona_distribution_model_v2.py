@@ -210,7 +210,7 @@ class Main:
 
 #%%
 
-COV = Main (n_families = 1000 , n_families_immun = 0 , n_families_ill = 1, weeks = 52 , prob_social_dis = 0.4)    
+COV = Main (n_families = 1000 , n_families_immun = 300 , n_families_ill = 10, weeks = 52 , prob_social_dis = 0.5)    
 COV.run()            
 
 
